@@ -1,0 +1,105 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* About Section */
+.about-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+/* Main Content Container */
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 700px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+/* Profile Image */
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #4CAF50;
+}
+
+/* Content Inside Card */
+.container {
+    flex: 1;
+}
+
+.container h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 1rem;
+    color: #777;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.container p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Contact Button */
+.button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
