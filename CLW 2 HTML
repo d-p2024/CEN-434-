@@ -4,31 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>About Daniel Promise</title>
 </head>
 <body>
     <div class="about-section">
         <h1>Daniel Promise</h1>
-        
     </div>
-      
-      <h2 style="text-align:center"></h2>
-      <div class="row">
-        <div class="column">
-          <div class="card">
-             <img src="pic.jpg" alt="Promise" style="width:5%">
-              <div class="container">
+
+    <div class="row">
+        <div class="card">
+            <img src="pic.jpg" alt="Promise">
+            <div class="container">
                 <h2>ABOUT</h2>
-                <p class="title">Student of Computer Enginnering</Canvas></p>
-                <p>Creative, sharp and eager to learn.</p>
+                <p class="title">Student of Computer Engineering</p>
+                <p>Creative, sharp, and eager to learn.</p>
                 <p>promise.daniel@stu.cu.edu.ng</p>
                 <p><button class="button">Contact</button></p>
-              </div>
-           </div>
-         </div>
-      
-        
+            </div>
         </div>
-      </div>
+    </div>
 </body>
 </html>
